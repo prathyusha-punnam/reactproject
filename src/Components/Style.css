@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cinzel+Decorative:wght@700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cinzel+Decorative:wght@700&family=Monoton&display=swap');
+
+body{
+    margin: 1% 2% 2% 2%;
+    zoom: 70%;
+    font-family:sans-serif;
+    
+}
+.art{
+    margin-left: 45%;
+    font-size: 40px;
+
+}
+.arts{
+    transform: rotate(270deg);
+    display: inline-block;
+}
+.arti{
+    font-weight: 1000;
+    padding-left: 1%;
+}
+.h1{
+    margin-left: 8%;
+    font-size: 3rem;
+}
+.ban1{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 2rem;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(67, 233, 89);
+    padding-top: 1.5%;
+}
+.mithin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.war{
+    grid-column:1/2;
+    grid-row: 1/4;
+    padding:20px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.war img{
+    border-radius: 15px;
+    height: 535px;
+    width:1300px;
+    opacity: 95%;
+
+}
+.mar{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 10px;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 30px;
+   
+}
+.mar img{
+    object-fit: cover;
+    border-radius: 15px;
+    opacity: 80%;
+}
+.war img:hover, .mar img:hover, .jar img:hover{
+    opacity: 150%;
+}
+.jar{
+    grid-column: 2/3;
+    grid-row: 2;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-top: -8%;
+    position: relative;
+    object-fit: contain;
+    margin-left: 30px;
+}
+.jar img{
+    height: 275px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 6%;
+    padding-top: 10px;
+    opacity: 95%;
+
+}
+
+.war1{
+    position: absolute;
+    top: 65%;
+    left:3% ;
+    font-size: 2rem;
+    color: white;
+    backdrop-filter: blur(2px);
+    font-family:sans-serif
+}
+.mar1{
+    position: absolute;
+    top: 45%;
+    left:5% ;
+    font-size: 2rem;
+    width: 350px;
+    color: black;
+    backdrop-filter: blur(2px);
+    font-family:sans-serif
+
+}
+.jar1{
+    position: absolute;
+    top: 54%;
+    left:5% ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+.sirhr{
+    margin-left: 3%;
+    height: 3px;
+    background-color: rgb(35, 46, 202);
+    width: 9%;
+    margin-top: .5%;
+    margin-bottom: 1%;
+    border: none;
+}
+.p{
+    font-size: 35px;
+    margin-left: 50px;
+}
+/* ------------------Latest Cards------------------ */
+.ban2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -28px;
+   
+}
+.f{
+    font-size: 35px;
+    margin-left: 65px;
+}
+.gpso{
+    width: 400px;
+    height: 500px;
+    font-size: 15px;
+    
+}
+.gpso img{
+    height: 290px;
+    width: 500px;
+    object-fit: poster;
+    border-radius:15px 15px 0px 0px;
+}
+.gps{
+    border: 1px solid grey;
+    width: 500px;
+    box-shadow: 10px 5px 5px grey;
+    cursor: pointer;
+ margin-right: 30px; 
+    height: 480px;
+    border-radius: 15px;
+}
+.gpso, .gpsp{
+    text-decoration: none;
+    color: black;
+}
+.gpso:hover, .gpsp:hover{
+    color:rgb(37, 224, 37) ;
+}
+.rose{
+    width: 65%;
+    margin-left:53px;
+}
+.ban3{
+    margin-left: 0px;
+}
+.gps2{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.gpa, .gpb{
+    margin-left: 3%;
+}
+.gpb, .gpd{
+    font-size: 18px;
+    color: rgb(0, 0, 204);
+}
+.rd5 h5{
+    color: rgb(0, 0, 204);
+    font-size: 22px;
+    margin-top: -2%;
+}
+.gpc{
+    color:red;
+    margin-left: 3%;
+}
+.gpd{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: -6%;
+    cursor: pointer;
+    width: 300px;
+}
+.gpe{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: -3%;
+    cursor: pointer;
+    color:red;
+}
+.newr{
+    margin-left: 52%;
+    object-fit: contain;
+    height: 650px;
+    width:500px;
+    border-radius: 15px;
+}
+.newr:hover{
+    object-fit:cover;
+    cursor: pointer;
+}
+.news{
+    position: absolute;
+    left: 63%;
+    height: 700px;
+}
+.bollyh, .ram{
+    margin-left: 0%;
+    color: rgb(55, 23, 233);
+    font-size: 3rem;
+    font-family:sans-serif;
+}
+.okati{
+    margin-left: 1%;
+    height: 3px;
+    background:rgb(55, 23, 233);
+    width: 9%;
+    margin-top: -1.5%;
+    border: none;
+}
+.hima{
+    font-size: 25px;
+}
+.bolly{
+    margin-left: 0%;
+    margin-top: 2%;
+    color: black;
+}
+.bollyt:hover{
+    color: rgb(15, 230, 33);
+}
+
+.bollyi img{
+    height: 225px;
+    cursor: pointer;
+    width: 400px;
+    padding: 10px;
+    margin-left: 50px;
+}
+.bollyt{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: -12%;
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+}
+.bolly h5{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -5%;
+    cursor: pointer;
+    width: 300px;
+}
+.bolly hr{
+    width: 60%;
+    float: left;
+}
+.bollyd{
+ color: blue;
+ font-size: 16px;
+ 
+}
+.bollyn{
+    color: blue;
+    font-size: 18px;
+    margin-top: 1%;
+    
+}
+.new{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    /* object-fit:fill; */
+    border-radius: 10px;
+}
+.refresh{
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    margin-top: 1%;
+}
+.refresh:hover{
+    background: rgb(36, 100, 238);
+}
+
+.rama{
+    margin: 2% 10% 0% 18%;
+    border: 2px solid black;
+    width: 60%;
+    box-shadow: 10px 5px 5px grey;
+
+}
+.rimg img{
+    height: 500px;
+    width: 900px;
+    object-fit: contain;
+    margin: 0% 3% 2% 8% ;
+}
+.rd3{
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.rd5{
+    margin-left: 5%;
+    font-size: 20px;
+}
+.rd{
+    margin-left: 5%;
+    width: 900px;
+    font-size: 25px;
+    text-align: justify;
+}
+.clap{
+    position: absolute;
+    top:80%;
+    right:15%;
+}
+.clap1{
+    font-size: 50px;
+    cursor: pointer;
+}
+.clap h1{
+    margin-left: 1%;
+}
+
+.emotional{
+    display: flex;
+    padding: 10px;
+    font-size: 40px;
+}
+.emotional i{
+    padding: 10px;
+    cursor:pointer;
+}
+.samy{
+    font-family:sans-serif;
+    font-size: 70px;
+}
+.sam{
+    margin-left: 10%;
+}
